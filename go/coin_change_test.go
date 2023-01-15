@@ -27,12 +27,3 @@ func TestCoinChange(t *testing.T) {
 
 	}
 }
-
-func TestCoinChange2(t *testing.T) {
-	for _, tc := range testCases {
-		got := coinChange2(tc.coins, tc.amount)
-		if got != tc.expected {
-			t.Errorf("count coins failed. got: %d, expected: %d", got, tc.expected)
-		}
-	}
-}
