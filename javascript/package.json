@@ -1,0 +1,14 @@
+{
+  "name": "coinchange",
+  "version": "1.0.0",
+  "description": "coin change programming exercise",
+  "main": "coin_change.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "guillaume.azam@talan.com",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}

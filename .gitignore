@@ -1,0 +1,8 @@
+rust/target
+python/__pycache__
+python/venv
+python/.pytest_cache
+haskell/.stack-work
+java/bin
+java/.gradle
+javascript/node_modules
